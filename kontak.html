@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - MotoComp</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container flex between">
+      <div class="brand">
+        <img src="assets/logo/MOTO COMP.png" alt="Laptop Icon" class="icon" />
+        <span class="brand-name"></span>
+      </div>
+      <nav class="nav">
+        <a href="product.html">Product</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+        <a href="index.html" class="btn primary">Beranda</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Kontak Kami</h1>
+    <p>Hubungi kami untuk informasi lebih lanjut mengenai penyewaan laptop, kerja sama bisnis, atau pertanyaan lainnya.</p>
+
+    <div class="contact-info">
+      <h2>Informasi Kontak</h2>
+      <p><strong>Email:</strong> info@motocomp.id</p>
+      <p><strong>Telepon:</strong> +62 21 1234 5678</p>
+      <p><strong>Alamat:</strong> Jl. Jend. Sudirman No. 123, Jakarta Pusat</p>
+    </div>
+
+    <div class="contact-form">
+      <h2>Formulir Kontak</h2>
+      <form action="#" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn primary">Kirim Pesan</button>
+      </form>
+    </div>
+
+    <!-- Google Maps Embed -->
+    <div class="maps-section" style="margin-top: 3rem;">
+      <h2>Lokasi Kami</h2>
+      <div class="map-container" style="margin-top: 1rem; border-radius: 1rem; overflow: hidden;">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18805.068012447104!2d110.39885149083521!3d-7.760252700608747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59007c49e439%3A0x77b59f4fefa9e48f!2sSewa%20Laptop%20Yogyakarta!5e0!3m2!1sid!2sid!4v1751905814037!5m2!1sid!2sid"
+          width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      &copy; 2025 MotoComp. Semua hak cipta dilindungi.
+    </div>
+  </footer>
+</body>
+</html>
